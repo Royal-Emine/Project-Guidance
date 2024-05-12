@@ -1,0 +1,22 @@
+Opinion Mining and Sentiment Analysis with BCI Datasets
+
+Opinion mining, also known as sentiment analysis or emotion AI, involves systematically identifying, extracting, quantifying, and studying affective states and subjective information from text. In our study, we focus on sentences labeled with positive or negative sentiments. Here are the details:
+
+1. Amazon Dataset:
+   - We collected reviews and scores for cell phones and accessories sold on amazon.com.
+   - The dataset, part of the collection by McAuley and Leskovec, includes 35,000 documents.
+   - Scores range from 1 to 5, with 4 and 5 considered positive and 1 and 2 considered negative.
+   - We randomly split the data into training and testing sets.
+
+2. IMDb Dataset:
+   - The IMDb movie review sentiment dataset contains 100,000 movie reviews from imdb.com.
+   - We have 25,000 labeled reviews for training and 25,000 for testing.
+   - Each labeled review has a binary sentiment label (positive or negative).
+
+3. Yelp Dataset:
+   - Extracted from the Yelp dataset challenge, this dataset focuses on restaurant reviews.
+   - Scores range from 1 to 5, with 4 and 5 as positive and 1 and 2 as negative.
+   - We randomly split approximately 300,000 documents into training and testing sets.
+   - We manually labeled 1,000 sentences from the test set (50% positive, 50% negative) for instance-level evaluation.
+
+Our goal is to learn at a group level and predict sentiment at the instance level, ensuring consistency across datasets.
